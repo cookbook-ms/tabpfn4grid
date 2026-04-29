@@ -2,6 +2,26 @@
 
 This repository explores [TabPFN](https://github.com/PriorLabs/TabPFN) — a foundation model for tabular data — applied to power grid problems.
 
+
+
+## Set up an env 
+
+```bash
+uv init --name tabpfn-grid
+```
+
+Import existing dependencies and create UV lock file
+
+```bash
+uv add -r requirements.txt
+uv lock
+```
+
+```bash
+uv sync --frozen
+```
+
+
 ## Structure
 
 ### ACPF/ — AC Power Flow Prediction

@@ -1,0 +1,15 @@
+[project]
+name = "tabpfn-grid"
+version = "0.1.0"
+description = "TabPFN experiments for power-grid ACPF and topology optimization"
+requires-python = ">=3.12"
+dependencies = [
+	"numpy==2.3.4",
+	"pandas==2.3.3",
+	"matplotlib==3.10.7",
+	"scikit-learn==1.8.0",
+	"jupyterlab==4.5.5",
+	"grid2op==1.12.3",
+	"lightsim2grid==0.12.2",
+	"tabpfn==6.4.1",
+]
